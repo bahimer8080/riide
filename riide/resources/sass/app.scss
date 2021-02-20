@@ -1,0 +1,98 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.btn:hover {
+    background: white !important ;
+    border: 3px solid #00bcd4 !important;
+    color: #00bcd4 !important;
+  }
+
+  /* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.search-product , .search-product:focus {
+  background: #bdbdbd ;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  border-radius: 20px ;
+}
+
+.slide-cat {
+  width: 150px !important;
+}
+.slide-pro {
+  width: 200px !important;
+}
+
+@media (min-width: 576px) { 
+  .swiper-container {
+    //height: 300px ;
+  }
+
+  .header-store {
+    height: 250px ;
+  }
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .swiper-container {
+    //height: 400px ;
+  }
+
+  .header-store {
+    height: 300px ;
+  }
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+  .swiper-container {
+    //height: 500px ;
+  }
+
+  .header-store {
+    height: 400px ;
+  }
+
+
+  
+ 
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
